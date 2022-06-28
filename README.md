@@ -37,8 +37,9 @@
     - Rota de cadastrar um usuário **POST em http://localhost:3334/users**, para cadastrar um usuário você precisa fazer uma requisição com um body (informações a serem enviadas para a API) no seguinte formato:
         ```json            
               {
-                "name": "Jorge",
-                "email": "jorge@gmail.com"
+                "name": "José Lopes",
+                "email": "joselopes@gmail.com",
+                "password":"lopes32145"
               }
         ```
 
@@ -81,8 +82,8 @@
      - Rota de login é um **POST em https://public-profile-cubos.herokuapp.com/login**, para realizar o login você deverá enviar um body (informações a serem enviadas para a API na requisição), no seguinte formato:
         ```json            
               {                
-                "email": "danieldeandradelopes@gmail.com",
-                "password":"lop32145"
+                "email": "joselopes@gmail.com",
+                "password":"lopes32145"
               }
         ```
         
