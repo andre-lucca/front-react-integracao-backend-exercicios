@@ -89,12 +89,15 @@
         
         ```
 ou
-        ```json            
-              {                
+
+        ```json
+            {              
                 "email": "joselopes@gmail.com",
                 "password":"lopes32145"
-              }
+            }
+        
         ```
+        
     - Assim que você efetuar o login e a API retornar com sucesso, os dados que virão no `response.data`, estarão no seguinte formato:
         
         ```json            
