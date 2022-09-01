@@ -80,6 +80,16 @@
     **Documentação da MINI API**
     
      - Rota de login é um **POST em https://public-profile-cubos.herokuapp.com/login**, para realizar o login você deverá enviar um body (informações a serem enviadas para a API na requisição), no seguinte formato:
+     
+        ```json
+            {              
+                "email": "danieldeandradelopes@gmail.com.br",
+                "password":"lop32145"
+            }
+        
+        ```
+ou
+
         ```json            
               {                
                 "email": "joselopes@gmail.com",
