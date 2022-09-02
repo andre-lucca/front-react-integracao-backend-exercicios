@@ -83,7 +83,7 @@
      
         ```json
             {              
-                "email": "danieldeandradelopes@gmail.com.br",
+                "email": "daniel.lopes@cubos.academy",
                 "password":"lop32145"
             }
         
