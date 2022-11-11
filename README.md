@@ -48,9 +48,12 @@
         O layout a ser desenvolvido é básico e por isso não possuí figma:
         
         ![](https://i.imgur.com/YsYM9ds.png)
-    **Obs.:** não é obrigatório colocar o campo senha no layout. Na requisição, pode passar a propriedade "password" direto pelo código com uma senha padrão.
+ 
 ---
 
+Obs.: não é obrigatório colocar o campo senha no layout. Na requisição, pode passar a propriedade "password" direto pelo código com uma senha padrão.
+
+---
 
 2. **Exercício 2** - 
 
