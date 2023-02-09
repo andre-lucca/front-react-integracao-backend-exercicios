@@ -121,6 +121,26 @@ Obs.: Em caso de dúvidas, lembre-se de assistir os vídeos de orientação.
 
 ---
 
+### Dicas
+Não sabe por onde começar? Que tal começar olhando o que já existe dentro do projeto, após isso pense no projeto final e defina pequenas tarefas para chegar a esse resultado.
+
+Nos exercícios será necessário:
+
+- Listar itens
+- Utilizar evento de submit, lembre-se de evitar que a página atualize
+- Utilizar evento de change
+- Utilizar hook de efeito
+- Criar e Manipular estado
+- Usar try e catch para evitar erros
+- Realizar requisições com o axios
+- Instalar axios
+- Criar a configuração inicial do axios
+- Criar a integração com dois end-points
+- Integrar com o end-point (api) de cadastro de usuário (POST)
+- Integrar com o end-point (api) de listagem de usuários (GET)
+- Pegar e verificar se o token existe
+- Utilizar o localstorage para armazenar o token 
+---
 Preencha a checklist para fazer os exercícios:
 
 -   [ ] Fazer o fork do repositório para sua conta
