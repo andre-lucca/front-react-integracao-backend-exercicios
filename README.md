@@ -72,7 +72,7 @@ Obs.: não é obrigatório colocar o campo senha no layout. Na requisição, pod
     </br>
     
     O link da API que você irá usar é: 
-    [https://public-profile-cubos.herokuapp.com](https://public-profile-cubos.herokuapp.com)
+    [https://api-public-profile.pedagogico.cubos.academy/](https://api-public-profile.pedagogico.cubos.academy/)
     
     
     Você irá usar um end-point (rotas) dessa api, apenas do de `/login`
@@ -81,12 +81,12 @@ Obs.: não é obrigatório colocar o campo senha no layout. Na requisição, pod
     
     **Documentação da MINI API**
     
-     - Rota de login é um **POST em https://public-profile-cubos.herokuapp.com/login**, para realizar o login você deverá enviar um body (informações a serem enviadas para a API na requisição), no seguinte formato:
+     - Rota de login é um **POST em https://api-public-profile.pedagogico.cubos.academy/**, para realizar o login você deverá enviar um body (informações a serem enviadas para a API na requisição), no seguinte formato:
      
         ```json
             {              
                 "email": "daniel.lopes@cubos.academy",
-                "password":"lop32145"
+                "password":"abc123"
             }
         
         ```
@@ -97,8 +97,8 @@ Obs.: não é obrigatório colocar o campo senha no layout. Na requisição, pod
              {
               "user": {
                 "id": "31ede891-c6ab-4ad8-84d3-f5f5710edc4b",
-                "name": "Daniel Loeps",
-                "email": "danieldeandradelopes@gmail.com",
+                "name": "Daniel Lopes",
+                "email": "daniel.lopes@cubos.academy",
                 "linkedIn": "https://www.linkedin.com/in/danieldeandradelopes/",
                 "github": "https://github.com/danieldeandradelopes/",
                 "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQEo8ZSOFGaUZg/profile-displayphoto-shrink_800_800/0/1615557942847?e=1653523200&v=beta&t=VNnnRyqVodFB_4Rrbzp3o9BnwyiDu-mDvngA0b9OrPs",
