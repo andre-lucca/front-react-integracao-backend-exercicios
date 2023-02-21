@@ -3,7 +3,7 @@ import Main from './pages/Main';
 import SignIn from './pages/SignIn';
 
 function ProtectedRoutes({ redirectTo }) {
-  const isAuthenticated = true;
+  const isAuthenticated = localStorage.getItem('token');
 
   return isAuthenticated ? <Outlet /> : <Navigate to={redirectTo} />
 }

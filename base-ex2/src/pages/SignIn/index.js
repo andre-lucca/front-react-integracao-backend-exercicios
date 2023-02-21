@@ -1,30 +1,39 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import api from '../../api'
+
 import './styles.css';
 
 function SignIn() {
-  const [email, setEmail] = useState('');
-  const [Passsword, setPassword] = useState('');
+  const navigateTo = useNavigate()
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
+    const user = {
+      email: "daniel.lopes@cubos.academy",
+      password: "abc123"
+    }
+
+    const { data } = await api.post('/login', user)
+    const { token } = data
+
+    localStorage.setItem('token', token)
+
+    navigateTo('/main')
   }
 
   return (
-    <div className='container'>
+    <div className="container">
       <form onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder='Email'
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
         />
         <input
           type="password"
-          placeholder='Passsword'
-          value={Passsword}
-          onChange={(e) => setPassword(e.target.value)}
+          placeholder="Passsword"
         />
-        <button>
+        <button type="submit">
           Login
         </button>
       </form>
